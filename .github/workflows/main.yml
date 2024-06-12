@@ -2,7 +2,7 @@ name: first-worflow
 on: push
 jobs:
   first-job:
-    runs-on: rhel9-ec2
+    runs-on: self-hosted
     steps:
       - name : step1
         run: echo "hello world !
