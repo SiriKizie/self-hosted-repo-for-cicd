@@ -4,6 +4,6 @@ jobs:
   first-job:
     runs-on: self-hosted
     steps:
-      - name : step1
-        run: echo "hello world !
+      - name : download code
+        uses: actions/checkout@v4
         
